@@ -1,0 +1,25 @@
+<resources>
+    <!-- Soft purple for light theme -->
+    <color name="colorPrimaryLight">#D3CCE3</color>  <!-- Light lavender -->
+    <color name="colorPrimaryDarkLight">#A093B6</color>  <!-- Slightly darker lavender for the dark variant -->
+
+    <!-- Teal for dark theme -->
+    <color name="colorPrimaryDark">#005B5B</color>  <!-- Deep teal -->
+    <color name="colorPrimaryLightDark">#007A7A</color>  <!-- Lighter teal for the primary color -->
+
+    <!-- Soft sky blue as an additional primary color -->
+    <color name="colorPrimarySkyBlue">#87CEEB</color>  <!-- Soft sky blue for a refreshing look -->
+
+    <!-- Golden accent color -->
+    <color name="colorAccent">#FFB400</color>  <!-- Bright golden accent -->
+
+    <!-- Neutral gray -->
+    <color name="colorNeutralGray">#E0E0E0</color>  <!-- Light neutral gray for background or subtle elements -->
+
+    <!-- Vibrant pink -->
+    <color name="colorSecondaryAccent">#FF4081</color>  <!-- Vibrant pink for secondary highlights -->
+
+    <!-- Rich navy blue -->
+    <color name="colorRichNavy">#001F54</color>  <!-- Deep navy blue for headers or strong contrast -->
+</resources>
+

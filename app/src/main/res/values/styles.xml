@@ -1,0 +1,40 @@
+<resources>
+
+    <!-- Light theme with soft green -->
+    <style name="Theme.Zakatcalculator" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimaryLight</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryDarkLight</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+        <item name="colorSecondary">@color/colorAccent</item>
+        <item name="colorOnSecondary">@android:color/white</item>
+    </style>
+
+    <!-- Dark theme with dark blue -->
+    <style name="Theme.Zakatcalculator_Dark" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimaryDark</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryLightDark</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+        <item name="colorSecondary">@color/colorAccent</item>
+        <item name="colorOnSecondary">@android:color/white</item>
+    </style>
+
+    <!-- Soft sky blue theme -->
+    <style name="Theme.Zakatcalculator_SkyBlue" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimarySkyBlue</item>
+        <item name="colorPrimaryVariant">@color/colorPrimarySkyBlue</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+        <item name="colorSecondary">@color/colorSecondaryAccent</item>
+        <item name="colorOnSecondary">@android:color/white</item>
+    </style>
+
+    <!-- Vibrant pink theme -->
+    <style name="Theme.Zakatcalculator_Pink" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/colorSecondaryAccent</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryLightDark</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+        <item name="colorSecondary">@color/colorAccent</item>
+        <item name="colorOnSecondary">@android:color/white</item>
+    </style>
+
+</resources>
+

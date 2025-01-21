@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="82dp"
+        android:layout_height="81dp"
+        app:srcCompat="@drawable/untitled_design__2_" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="378dp"
+        android:layout_height="71dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Zakat Calculator"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textSize="34sp" />
+
+    <EditText
+        android:id="@+id/goldWeightKeepEditText"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:autofillHints=""
+        android:hint="Enter gold weight (keep)(grams)"
+        android:inputType="numberDecimal"
+        tools:ignore="HardcodedText" />
+
+
+    <EditText
+        android:id="@+id/goldWeightWearEditText"
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:ems="10"
+        android:hint="Enter gold weight (wear)(grams)"
+        android:inputType="text" />
+
+
+    <EditText
+        android:id="@+id/goldValueEditText"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:autofillHints=""
+        android:hint="Enter current gold value per gram (RM)"
+        android:inputType="numberDecimal"
+        tools:ignore="HardcodedText" />
+
+
+    <TextView
+        android:id="@+id/errorMessageTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please enter all the required fields!"
+        android:textColor="@android:color/holo_red_light"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/calculateButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculate Zakat"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/totalValueTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Result"
+        android:textSize="16sp"
+        android:visibility="visible"
+        tools:ignore="HardcodedText" />
+
+
+    <Button
+        android:id="@+id/clearButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Clear" />
+
+    <Button
+        android:id="@+id/aboutButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About"
+        tools:ignore="HardcodedText" />
+
+
+    <Button
+        android:id="@+id/themeButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Change Theme"
+        tools:ignore="HardcodedText" />
+
+
+    <Button
+        android:id="@+id/shareButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Share Application"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>
